@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(176, 220, 205);
+}
+.main {
+  margin: 30px auto;
+  border: 2px solid rgb(64, 64, 187);
+  width: 350px;
+  height: 600px;
+  border-radius: 20px;
+  background-color: cadetblue;
+  /* display: inline-table;*/
+  box-shadow: 0px 5px 5px 0px blue;
+}
+img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.main h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(54, 101, 142);
+}
+.main p {
+  text-align: justify;
+  color: rgb(215, 223, 215);
+}

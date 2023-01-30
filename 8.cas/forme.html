@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../8.cas/forme.css" />
+    <title>Document</title>
+  </head>
+  
+  <body class="main">
+    <p class="crta">
+    <h1>unesite svoje podatke</h1>
+    <form class="form" action="../8.cas/letovanje.html">
+      <label for="name"></label>
+      <input type="text" name="ime" id="name" placeholder="username" required />
+      <br />
+      <br />
+      <label for="password"></label>
+      <input
+        type="password"
+        name="sifra"
+        id="password"
+        placeholder="password"
+        required
+      />
+      <br />
+      <br />
+      <label for="date">broj godina:</label>
+      <input
+        type="number"
+        name="godine"
+        id="godine"
+        min="17"
+        max="40"
+        step="2"
+        required
+      />
+      <br />
+      <br />
+      <label for="gender">odaberite svoj pol:</label>
+      <select name="pol" id="gender">
+        <option value="musko">musko</option>
+        <option value="zensko">zensko</option>
+      </select>
+      <br />
+      <br />
+      <label for="godisnje doba">odaberite ponudu</label>
+      <select name="godisnje doba" id="godisnje doba">
+        <option value="leto">letovanje</option>
+        <option value="zima">zimovanje</option>
+        <br />
+        <br />
+      </select>
+      <br />
+      <br />
+      <button type="reset">restartuj</button>
+      <button type="submit">potvrdi</button>
+    </form>
+    </p>
+  </body>
+</html>

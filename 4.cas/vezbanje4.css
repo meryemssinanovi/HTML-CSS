@@ -1,0 +1,56 @@
+body {
+  background-color: darksalmon;
+  margin: 50px auto;
+}
+.first {
+  border: 4px solid darksalmon;
+  border-radius: 20px;
+}
+.second {
+  background-color: bisque;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border: none;
+}
+.mis {
+  width: 30px;
+  height: 10px;
+  background-color: coral;
+  border: none;
+}
+.lam {
+  background-color: bisque;
+}
+.src {
+  background-color: coral;
+}
+.alt {
+  background-color: bisque;
+}
+.third {
+  background-color: coral;
+}
+.fourth {
+  background-color: bisque;
+}
+.fiveth {
+  background-color: coral;
+}
+.sixth {
+  background-color: bisque;
+}
+.seventh {
+  background-color: coral;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: none;
+}
+td {
+  border: 1px dashed black;
+}
+table {
+  border-collapse: collapse;
+}
+.first tr:nth-of-type(2) td {
+  border: 0px;
+}

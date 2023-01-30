@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Domaci</title>
+    <style>
+      form{
+          text-align: center;
+      }
+      h1"{
+          text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="../5.cas/domaci1.html">
+      <h1 style="color: blueviolet">FORMA 1</h1>
+      <label for="username"></label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        required
+        placeholder="username"
+      />
+      <br />
+      <br />
+      <label for="password"></label>
+      <input
+        type="password"
+        name="sifra"
+        id="password"
+        required
+        placeholder="password"
+      />
+      <br />
+      <br />
+      <button type="submit">POTVRDI</button>
+    </form>
+    <br />
+    <form action="../6.cas/potreba.html">
+      <h1 style="color: blueviolet">FORMA 2</h1>
+      <label for="username"></label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        required
+        placeholder="username"
+      />
+      <br />
+      <br />
+      <label for="password"></label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        required
+        placeholder="password"
+      />
+      <br />
+      <br />
+      <label for="date">Unesite svoj datum rodjenja:</label>
+      <input type="date" name="date" id="date" required />
+      <br />
+      <br />
+      <label for="status">Odaberite svoj status:</label>
+      <select name="status" id="status">
+        <option value="Student">Student</option>
+        <option value="Ucenik">Ucenik</option>
+        <option value="Radnik">Radnik</option>
+        <option value="Nezaposlen">Nezaposlen</option>
+        <option value="Penzioner">Penzioner</option>
+      </select>
+      <br />
+      <br />
+      <button type="submit">POTVRDI</button>
+      <button type="reset">RESETUJ</button>
+    </form>
+  </body>
+</html>

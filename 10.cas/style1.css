@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(255, 208, 0);
+}
+.first {
+  /* background-color: #7fff00;*/
+  height: 300px;
+  background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
+  height: 300px;
+  background-repeat: no-repeat;
+  /*background-size: 400px 200px; prva vrednost*/
+  /*background-size: 100% 100%;*/
+  /* background-size: cover;*/
+  /*background-size: cover; sece sliku po svaku cenu/razvlaci je */
+  background-size: contain; /*ne sece sliku*/
+}
+ul {
+  margin: auto;
+  width: 500px;
+  list-style-position: inside;
+}
+
+li:nth-of-type(odd) {
+  background-color: brown;
+}
+li:nth-of-type(even) {
+  background-color: yellow;
+}
+li:nth-last-child(1) {
+  background-color: black;
+}

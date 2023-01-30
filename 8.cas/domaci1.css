@@ -1,0 +1,40 @@
+body {
+  background-color: hsl(328, 46%, 57%);
+}
+.main {
+  background-color: hsl(184, 100%, 50%);
+  width: 400px;
+  height: 600px;
+  margin: 50px auto;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.third {
+  text-align: center;
+}
+.first {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.second {
+  text-align: justify;
+  margin: 15px;
+}
+.fourth {
+  text-transform: capitalize;
+}
+.fourth {
+  text-align: center;
+}
+.fiveth {
+  text-align: center;
+}
+
+.main :hover {
+  font-size: x-large;
+}
+
+.main img:hover {
+  content: url(./domaci1.css);
+}
