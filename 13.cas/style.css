@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap"); /*drugi nacin importavanja eksternog fonta slova.*/
+
+* {
+  margin: 0px;
+}
+body {
+  font-family: "Aboreto", cursive;
+}
+
+.main {
+  background-color: coral;
+  width: 700px;
+  height: 500px;
+  margin: 50px auto 0px;
+  padding: 20px;
+  display: inline-block;
+}
+/*.second {
+  /* display: none;*/
+visibility: hidden;
+
+.main h1 {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+.main p {
+  text-align: justify;
+  text-indent: 20px;
+  font-size: 22px;
+  text-align-last: right;
+  font-size: 22px;
+  line-height: 30px;
+}
+.icon {
+  color: blueviolet;
+  font-size: x-larger;
+  margin-left: 50%;
+}
