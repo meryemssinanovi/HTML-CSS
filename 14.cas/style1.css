@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans NKo", sans-serif;
+  background-color: rgb(178, 158, 198);
+  /* font-size: 4mm;*/
+  font-size: 16px;
+}
+.parent {
+  background-color: coral;
+  /*width: 600px;*/
+  /*width: 8in;*/
+  /*width: 500pt;*/
+  width: 60%;
+  /* width: 60vw; /* 60% u odnosu na velicinu ekrana bez obzira na velicinu*/
+  /* width: 60vmin;  60% u odnosu na manju dimeziju ekrana*/
+  /* width: 60vmax;  60% u odnosu na vecu dimeziju ekrana*/
+  height: 40vh; /*40% u odnosu na velicinu ekrana bez obzira na velicinu*/
+  margin: 40px auto 30px;
+  font-size: 12px;
+}
+.child {
+  background-color: aqua;
+  margin: 40px auto 30px;
+  font-size: 1.3rem;
+  /*  width: 80%;*/
+}
+/* u CSS imamo apsolutne i relativne velicine*/
+/*1.Absolute Lengths*/
+
+/*cm-centimeters*/
+/*mm-milimeters*/
+/*in-inches 1in=96px*/
+/*px-pixels*/
+/*pt-point  1pt= 1/72 od 1 in */
+/* pc-picas 1pc= 12pt*/
+
+/* 2.relative lenghts */
+
+/*em - relativn au odnosu na font-size njenog perenta*/
+/*rem- relativna u odnosu na root element.Ne nasledjuje od roditelja */
+
+/*vw-viewport of the width.Relativan za 1% u odnosu na sirinu ekrana.*/
+/*vh-viewport of the width.Relativan za 1% u odnosu na visinu ekrana.*/
+/*vmin-viewport of the width.Relativan za 1% u odnosu na manju dimenziju.*/
+/*vmax-viewport of the width.Relativan za 1% u odnosu na vecu dimenziju.*/
+/*% - relativan  za 1%  u odnosu na svog perenta*/
