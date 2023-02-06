@@ -23,12 +23,12 @@ img {
   text-align: center;
   color: rgb(172, 64, 149);
 }
-.main img:hover {
+.main:nth-of-type(1) img:hover {
   content: url("https://turistickileksikon.com/wp-content/uploads/2020/11/Scopello.png");
 }
 .main p {
   background-color: rgb(171, 147, 194);
 }
-/*.main img:hover {
+.main:nth-of-type(2) img:hover {
   content: url("https://www.maestral.co.rs/wp-content/uploads/2022/03/Hotel-DELPHIN-BE-GRAND-Antalija-1.jpg");
-}*/
+}

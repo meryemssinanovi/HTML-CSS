@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  /* float: left;*/
+}
+.box1 {
+  background-color: rgba(219, 15, 15, 0.7);
+  float: left;
+}
+.box2 {
+  background-color: blue;
+  float: left;
+}
+.box3 {
+  background-color: yellow;
+  float: left;
+}
+.box4 {
+  background-color: green;
+  clear: both;
+  float: left;
+}
+.box5 {
+  background-color: orangered;
+}
+.box6 {
+  background-color: violet;
+}
+.box7 {
+  background-color: brown;
+}
+p {
+  clear: both;
+}

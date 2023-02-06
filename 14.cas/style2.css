@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+}
+.main {
+  background-color: rgb(219, 222, 171);
+  /* display: inline-block; */
+}
+.crta {
+  background-color: rgb(190, 234, 236);
+  border: 2px solid rgb(6, 134, 219);
+  border-radius: 20px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  width: 450px;
+  height: 750px;
+}
+.first {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.second {
+  text-align: center;
+}
+.prva {
+  text-align: center;
+}
+.main:nth-of-type(1) img:hover {
+  content: url("https://www.apartmanivikendice.com/images/smestaj/villa-suburbia-19.jpg");
+}
+.crta:nth-of-type(5) {
+  visibility: hidden;
+}
