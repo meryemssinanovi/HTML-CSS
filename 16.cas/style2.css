@@ -1,0 +1,34 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.glavni {
+  background-color: yellow;
+  width: 900px;
+  height: 600px;
+  position: relative;
+}
+.child1 {
+  background-color: blueviolet;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  left: 20px;
+  top: 40px;
+}
+.child2 {
+  background-color: brown;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  left: 60px;
+  top: 30px;
+  z-index: 5;
+}
+.child3 {
+  background-color: chartreuse;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  left: 90px;
+}

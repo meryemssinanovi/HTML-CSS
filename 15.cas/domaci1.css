@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.glavni {
+  background-color: #ddeee5;
+  width: 1500px;
+  height: 1000px;
+}
+.slika {
+  background-color: #014f86;
+}
+.okvir {
+  font-family: "Aboreto", cursive;
+  font-family: "Noto Sans NKo", sans-serif;
+  font-family: "Vidaloka", serif;
+  text-align: center;
+  font-size: 40px;
+  color: beige;
+}
+.drugi2 {
+  text-transform: lowercase;
+  text-align: center;
+  font-size: 30px;
+  color: #1cc211;
+}
+.drugi3 {
+  text-align: center;
+  font-size: 19px;
+}
+.drugi {
+  border: 2px solid #ddeee5;
+  width: 350px;
+  height: 200px;
+  /* float: left; */
+  margin: 0px 40px 40px 170px;
+  display: inline-block;
+}
+
+.treci {
+  text-align: center;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  /* padding: 15px; */
+  width: 350px;
+  height: 300px;
+  /* float: right; */
+  margin: 150px 200px 0px 200px;
+  display: inline-block;
+}
+
+.obaveza {
+  border: 1px solid rgb(184, 150, 150);
+  border-radius: 10px;
+  /* text-align: center; */
+  margin: 20px;
+  width: 300px;
+  height: 35px;
+}
+.obaveza1 {
+  border: 1px solid rgb(184, 150, 150);
+  border-radius: 10px;
+  margin: 0px;
+  width: 300px;
+  height: 35px;
+}
+.obaveza2 {
+  background-color: #014f86;
+  font-size: larger;
+  color: white;
+  border: 1px solid rgb(184, 150, 150);
+  border-radius: 10px;
+  margin: 0px;
+  width: 300px;
+  height: 35px;
+}
+
+.obaveza3 {
+  background-color: #1cc211;
+  font-size: larger;
+  color: white;
+  border: 1px solid rgb(184, 150, 150);
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 35px;
+}
+.obaveza4 {
+  margin: 10px;
+  text-align: center;
+  color: rgb(24, 24, 200);
+}
