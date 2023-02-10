@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Creepster&family=Noto+Sans+NKo&family=Open+Sans&family=PT+Serif&family=Vidaloka&display=swap");
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.header {
+  width: 100vw;
+  height: 90px;
+  background-color: aquamarine;
+  position: relative;
+  /* bottom: 15px; */
+  /* left: 20px; */
+  font-family: "Vidaloka", serif;
+}
+.header img {
+  width: 5vw;
+  height: 10vh;
+  float: left;
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  bottom: 5px;
+}
+.links {
+  float: right;
+  position: absolute;
+  top: 35px;
+  right: 40px;
+}
+a {
+  font-size: 22px;
+  margin: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: rgb(2, 2, 23);
+  background-color: blue;
+}
+a:hover {
+  background-color: rgb(2, 2, 42);
+  color: rgb(143, 143, 226);
+}
+:visited {
+  color: rgb(218, 27, 27);
+}
+a:active {
+  color: white;
+}
+p {
+  font-size: larger;
+  word-spacing: 10px;
+  letter-spacing: 2px;
+  line-height: 35px;
+}
+
+i {
+  color: red;
+  width: 500px;
+}
+.crta {
+  text-align: center;
+  font-size: 50px;
+}
+button {
+  background-color: rgb(86, 151, 86);
+  color: rgb(176, 228, 201);
+  padding: 15px;
+  border: 1px solid blueviolet;
+  border-radius: 10px;
+  /* cursor: pointer; */
+  /* cursor: text; */
+  cursor: default;
+}
