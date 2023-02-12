@@ -1,0 +1,212 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: #31338d;
+  height: 1000px;
+}
+.parent {
+  background-image: url("https://www1.assets.heroku.com/assets/home/hero/salesforce_functions-bcfb96a6f5f818b1c86f3a4d4d2cfb9a22a99651166211a6a276013e86367e9a.png");
+  /* opacity: 30%; */
+  background-color: #31338d;
+  background-size: 470px;
+  background-repeat: no-repeat;
+  background-position: 400px;
+  /* font-family: "Creepster", cursive; */
+  /* font-size: 90px; */
+  color: blanchedalmond;
+}
+
+.parent h1 {
+  font-family: "Creepster", cursive;
+  font-size: 90px;
+  color: rgb(10, 8, 111);
+}
+.child {
+  font-size: 13px;
+  position: absolute;
+  right: 340px;
+  top: 35px;
+}
+.child2 {
+  position: absolute;
+  right: 270px;
+  top: 30px;
+  background-color: #31338d;
+  /* opacity: 10%; */
+  color: white;
+  border: 1px solid #31338d;
+  background-color: rgba(128, 128, 128, 0.4);
+  padding: 8px;
+}
+.first {
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: left;
+  /* margin: auto; */
+  width: 700px;
+  height: 600px;
+  /* background-image: url("https://www1.assets.heroku.com/assets/home/hero/salesforce_functions-bcfb96a6f5f818b1c86f3a4d4d2cfb9a22a99651166211a6a276013e86367e9a.png"); */
+  /* background-position-y: bottom; */
+  background-color: rgb(251, 245, 245);
+  position: absolute;
+  left: 320px;
+}
+/* .first h1 { 
+  color: rgb(107, 76, 161);
+  font-size: 15px;
+  font-family: "Noto Sans NKo", sans-serif;
+  margin: 50px 30px 30px 35px;
+} */
+.first2 {
+  width: 350px;
+  padding-left: 20px;
+}
+.main1 {
+  border: 1px solid white;
+  /* margin: auto; */
+  border-radius: 7px;
+  box-shadow: 7px green;
+  width: 300px;
+  height: 600px;
+  background-color: white;
+  padding: 25px;
+  font-size: 14px;
+  position: absolute;
+  left: 740px;
+  top: 190px;
+  box-shadow: 7px 7px 7px 7px #31338d;
+}
+.form1 {
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 235px;
+  height: 33px;
+  margin-top: 5px;
+  margin-bottom: 9px;
+}
+
+.form2 {
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 235px;
+  height: 33px;
+  margin-top: 5px;
+  margin-bottom: 9px;
+}
+.form3 {
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 235px;
+  height: 33px;
+  margin-top: 5px;
+  margin-bottom: 9px;
+}
+.form4 {
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 235px;
+  height: 33px;
+  margin-top: 5px;
+  margin-bottom: 9px;
+}
+.form5 {
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 235px;
+  height: 33px;
+  margin-top: 5px;
+  margin-bottom: 9px;
+}
+.form6 {
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 235px;
+  height: 33px;
+  margin-top: 5px;
+  margin-bottom: 9px;
+}
+.form7 {
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 235px;
+  height: 33px;
+  margin-top: 5px;
+  margin-bottom: 9px;
+}
+.form8 {
+  background-color: #3d3fcd;
+  border-radius: 3px;
+  color: white;
+  border: 1px solid gray;
+  width: 235px;
+  height: 33px;
+  margin-top: 5px;
+  margin-bottom: 9px;
+}
+.form9 {
+  font-size: 12px;
+  text-align: left;
+}
+.naslov {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.unutar1 {
+  width: 330px;
+  height: 150px;
+  text-align: center;
+  margin-top: 35px;
+}
+.unutar2 {
+  width: 330px;
+  height: 150px;
+  text-align: center;
+  margin-top: 35px;
+}
+.unutar3 {
+  width: 330px;
+  height: 150px;
+  text-align: center;
+  margin-top: 35px;
+}
+.first2 p {
+  margin-top: 20px;
+}
+.first2 h1 {
+  font-family: "Noto Sans NKo", sans-serif;
+  font-size: 20px;
+  color: blueviolet;
+}
+.first2 i {
+  margin-right: 15px;
+  text-align: left;
+}
+.crta1 {
+  color: red;
+}
+.crta2 {
+  color: red;
+}
+.crta3 {
+  color: red;
+}
+.crta4 {
+  color: red;
+}
+.crta5 {
+  color: red;
+}
+.crta6 {
+  color: red;
+}
+.crta7 {
+  color: red;
+}
+.main {
+}
