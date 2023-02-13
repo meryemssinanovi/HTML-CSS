@@ -1,0 +1,168 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.main {
+  width: 1489px;
+  height: 100px;
+  background-color: white;
+}
+.crta {
+  position: absolute;
+  left: 50px;
+  top: 30px;
+}
+.prva {
+  position: absolute;
+  left: 190px;
+  top: 45px;
+}
+.druga {
+  border: 2px solid black;
+  border-radius: 50px;
+  width: 500px;
+  height: 40px;
+  position: absolute;
+  left: 290px;
+  top: 45px;
+  z-index: 5;
+}
+
+.treca {
+  position: absolute;
+  left: 800px;
+  top: 45px;
+}
+.cetvrta {
+  position: absolute;
+  left: 960px;
+  top: 45px;
+}
+.peta {
+  position: absolute;
+  left: 1100px;
+  top: 45px;
+}
+
+i {
+  position: relative;
+  left: 1250px;
+  top: 45px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.unutar1 {
+  background-color: white;
+  border: 1px solid white;
+  margin-top: 60px;
+  margin-left: 45px;
+  width: 400px;
+  height: 170px;
+}
+.unutar1 h1 {
+  position: absolute;
+  top: 80px;
+  left: 70px;
+}
+.unutar1 p {
+  margin-top: 80px;
+  margin-left: 20px;
+}
+.unutar2 {
+  position: relative;
+  left: 470px;
+  top: -230px;
+}
+.main2 {
+  background-color: rgb(242, 243, 245);
+  position: relative;
+  left: 150px;
+  border: 1px solid rgb(242, 231, 231);
+  width: 1200px;
+  height: 500px;
+}
+.tacka {
+  margin-left: 180px;
+  margin-top: 30px;
+}
+.main3 {
+  position: relative;
+  left: 40px;
+  top: 10px;
+  border: 1px solid black;
+  width: 400px;
+  height: 200px;
+}
+.main3 p {
+  position: relative;
+  left: 150px;
+  top: -100px;
+}
+.crtap {
+  width: 250px;
+  height: 150px;
+}
+.prvic {
+  margin-top: -45px;
+}
+.drugicc {
+  margin-top: 20px;
+}
+.trecic {
+  margin-top: 30px;
+  color: blueviolet;
+}
+.main4 {
+  position: relative;
+  left: 500px;
+  top: -190px;
+  border: 1px solid black;
+  width: 400px;
+  height: 200px;
+}
+.main4 p {
+  position: relative;
+  left: 150px;
+  top: -100px;
+}
+.main5 {
+  position: relative;
+  left: 950px;
+  top: -390px;
+  border: 1px solid black;
+  width: 400px;
+  height: 200px;
+}
+.main5 p {
+  position: relative;
+  left: 150px;
+  top: -100px;
+}
+.java1 {
+  margin-top: -45px;
+}
+.java2 {
+  margin-top: 20px;
+}
+.java3 {
+  margin-top: 30px;
+  color: blueviolet;
+}
+.crta2p {
+  width: 250px;
+  height: 150px;
+}
+.crta3p {
+  width: 250px;
+  height: 150px;
+}
+.react1 {
+  margin-top: -35px;
+}
+.react2 {
+  margin-top: 20px;
+}
+.react3 {
+  margin-top: 30px;
+  color: blueviolet;
+}
