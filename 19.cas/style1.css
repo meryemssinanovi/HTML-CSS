@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Vidaloka", serif;
+}
+.parent {
+  margin: auto;
+  width: 60%;
+  background-color: #5f9ea0;
+  height: 80vh;
+  display: flex;
+  /* flex-direction: row; defultna vredmost */
+  /* flex-direction: column; */
+
+
+  /* Horizontalno poravnanje: */
+  /* justify-content: flex-start ; defultna vrednost hprizontalnog poravnanja */
+  /* justify-content: flex-end; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+  /* justify-content: stretch;  difolt*/
+  justify-content: space-evenly;
+
+  /* Vertikalno poravnanje:  */
+  /* align-items: flex-start; defultna vrednost kod vertikalnog poravnajna. */
+  align-items: center;
+  /* align-items: flex-end; */
+
+}
+.box {
+  width: 150px;
+  height: 150px; */
+}
+/* .box:nth-of-type(2) {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(129, 129, 169);
+}
+.box:nth-of-type(3) {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(25, 194, 33);
+}  */
+.first:nth-of-type(1) {
+  background-color: rgb(92, 28, 151);
+  align-self: flex-start;
+  width: 150px;
+  height: 150px;
+ 
+}
+.second:nth-of-type(2) {
+  background-color: burlywood;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third:nth-of-type(3) {
+  background-color: chartreuse;
+  align-self: flex-end;
+  width: 150px;
+  height: 150px;
+}
