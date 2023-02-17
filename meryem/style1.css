@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Creepster&family=Noto+Sans+NKo&family=Open+Sans&family=PT+Serif&family=Roboto+Slab&family=Vidaloka&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Vidaloka", serif;
+}
