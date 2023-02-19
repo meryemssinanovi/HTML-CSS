@@ -14,7 +14,7 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
   /* flex-wrap: nowrap; defultna vrednost */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* flex-wrap: wrap-reverse; poredjano odozdo ka gore */
   gap: 15px; /*prostor izmedju svih elemenata u parentu */
   /* row-gap: 15px; prostor izmedju redova asa obzirom na display-flex ima samo jedan red necemo ga koristiti ovde. */
