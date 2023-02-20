@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.parent {
+  margin: auto;
+  background-color: #5f9ea0;
+  width: 500px;
+  height: 500px;
+}
+.child {
+  width: 50%;
+  height: 50%;
+  background-color: #d2691e;
+  /* border-radius: 50%; */
+  transition: transform 1s ease-in-out 2s;
+  /* transition-property: transform; na koji je property odnosi */
+  /* transition-duration: 1s; trajanj etransformacije */
+  /* transition-timing-function: ease-in-out funkcija po kojoj se vrsi transformacija */
+  /* transition-delay: 2s; odlaganje */
+}
+.parent:hover .child {
+  transform: translateX(100%); pomeranje po X-osi
+  /* transform: translateY(100%); pomeranje po Y-osi     */
+  /* transform: translate(100%, 100%); pomeranje po X i Y-osi. */
+}
+
+/* .child:hover { */
+/* transform: scale(1.2); jedna vrednost povecava/smanjuje elemente na osnovu unuete vrednosti proporcionalnosti po x i po y osi */
+/* transform: scale(0.5, 1.5); */
+/* Ako imamo dve vrednosti,prva se odnosi na sirirnu,a druga na visinu */
+/* } */

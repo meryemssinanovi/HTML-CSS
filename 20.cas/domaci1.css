@@ -57,17 +57,28 @@ button {
 .prvi {
   font-size: 30px;
 }
+.mainn {
+  display: flex;
+  justify-content: space-around;
+  gap: 500px;
+}
 .main {
-  background-color: rgb(247, 247, 254);
+  /* background-color: rgb(247, 247, 254);
+  width: 100%;
+  height: 100%; */
   /* position: relative;
   left: 30px; */
 }
+
 img {
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
   /* border: 1px SOLID black; */
-  display: inline-block;
-  position: relative;
+  /* display: inline-block; */
+  /* position: relative;
   left: 770px;
-  top: -880px;
+  top: -880px; */
 }
 .main1:nth-of-type(1) {
   position: relative;
@@ -90,4 +101,7 @@ img {
   top: -360px;
   left: 400px;
   bottom: -100px;
+}
+button:hover {
+  background-color: blueviolet;
 }

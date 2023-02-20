@@ -7,3 +7,11 @@
 body {
   font-family: "Vidaloka", serif;
 }
+.header {
+  width: 100%;
+  height: 100px;
+}
+.img {
+  width: 200px;
+  height: 100px;
+}
