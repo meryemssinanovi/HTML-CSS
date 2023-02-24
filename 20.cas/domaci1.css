@@ -105,3 +105,114 @@ img {
 button:hover {
   background-color: blueviolet;
 }
+.main2 {
+  background-color: rgb(214, 224, 234);
+  position: relative;
+  top: -200px;
+  width: 350px;
+  height: 600px;
+  padding: 20px;
+}
+.main2:hover {
+  transform: scale(1.1);
+}
+.main2 h1 {
+  text-align: center;
+  position: relative;
+  top: 12px;
+}
+.punutar {
+  font-size: 60px;
+  position: relative;
+  top: 20px;
+}
+.iunutar {
+  position: relative;
+  right: 45px;
+  /* line-height: 30px; */
+}
+.iunutar i {
+  font-size: 20px;
+}
+.crta {
+  color: green;
+}
+.crta1 {
+  color: red;
+}
+.birr {
+  position: relative;
+  top: 10px;
+  bottom: -50px;
+}
+.birr1 {
+  position: relative;
+  top: -10px;
+}
+.birr2 {
+  position: relative;
+  top: -30px;
+}
+.birr3 {
+  position: relative;
+  top: -50px;
+}
+.birr4 {
+  position: relative;
+  top: -70px;
+}
+button {
+  position: relative;
+  top: 30px;
+  left: 75px;
+}
+.glavni1 {
+  display: flex;
+
+  justify-content: space-evenly;
+}
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(8, 105, 73);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  background-color: rgb(6, 6, 88);
+  height: 140px;
+  margin-top: 30px;
+}
+.firstanimation {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  transition: transform 0.5s ease-in 0.5s;
+}
+.secondanimation {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  float: right;
+  transition: transform 0.5s ease-in-out 0.5s;
+}
+footer:hover .firstanimation {
+  transform: translateX(2600%);
+  transition: 1s;
+}
+footer:hover .secondanimation {
+  transform: translateX(-2600%);
+  transition: 1s;
+}
+.copyright {
+  clear: both;
+  width: 320px;
+  height: 20px;
+  margin: auto;
+  position: relative;
+  top: 40px;
+  color: white;
+}
