@@ -16,18 +16,19 @@ body {
   align-items: center;
   gap: 100px;
 }
-/* @media (min-width: 500px) and (max-width: 681px) {
+ @media (min-width: 500px) and (max-width: 681px) {
   .parent {
     background-color: green;
     color: blueviolet;
   }
-} 
+ } 
+ /*
  @media (min-width: 505px), (max-width: 700px) {
   .parent {
     background-color: green;
     color: blueviolet;
   }
-} */
+} */ */
 /*
 @media (max-width: 500px) {
   .parent {
