@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+  color: blueviolet;
+}
+img {
+  width: 600px;
+  height: 450px;
+  position: relative;
+  left: 450px;
+}
+p {
+  text-align: center;
+  font-size: larger;
+  color: brown;
+}
+a {
+  position: relative;
+  left: 700px;
+}

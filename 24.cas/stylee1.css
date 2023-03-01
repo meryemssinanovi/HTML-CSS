@@ -10,7 +10,7 @@
   display: grid;
   /* Sledece svojstvo nam definise koliko cemo imati kolona o kojih sirina. */
   /* grid-template-columns: 200px 200px; */
-  /* grid-template-columns: 1fr 1fr 2fr; */
+  /* grid-template-columns: 1fr 1fr 2fr;  da bude popunjena sirina preneta*/
   grid-template-columns: repeat(3, 200px);
 
   /* Sledece svojstvo nam definise koliko cemo imati redova o kojih sirina. */
