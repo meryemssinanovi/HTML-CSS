@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Courier New", Courier, monospace;
+  /* font-family: "Courier New", Courier, monospace; */
 }
 .site {
   width: 100%;
@@ -22,9 +22,11 @@ body {
   grid-column: 1/-1;
 }
 section {
-  background-color: rgba(0, 179, 255);
+  background-image: url("https://www.mancity.com/meta/media/byld3srp/men-pl-mobile.png?width=968&height=545&mode=crop");
+  background-repeat: no-repeat;
+  background-size: 100%;
   grid-column: 1/-1;
 }
 .card {
-  background-color: darkgreen;
+  background-color: rgb(248, 9, 9);
 }
