@@ -9,24 +9,169 @@ body {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 7vh 7vh 20vh 300px 300px;
+  grid-template-rows: 8vh 8vh 25vh 350px 350px;
   /* grid-auto-rows: 200px; */
-  grid-gap: 5px;
+  grid-gap: 10px;
 }
 .header1 {
-  background-color: blueviolet;
+  background-color: white;
   grid-column: 1/-1;
 }
 .header2 {
-  background-color: red;
+  background-color: rgb(65, 2, 65);
   grid-column: 1/-1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.header2 p,
+i {
+  color: rgb(255, 255, 255);
+  display: flex;
+  font-size: 20px;
+  justify-content: space-around;
+}
+.parent {
+  display: flex;
+  gap: 40px;
+  position: relative;
+  right: 300px;
+  font-size: 50px;
+}
+.header2 img {
+  width: 140px;
+  height: 160px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  left: -140px;
+  bottom: -8px;
+  padding: 15px;
+}
+.header2 i {
+  position: relative;
+  left: 5px;
 }
 section {
   background-image: url("https://www.mancity.com/meta/media/byld3srp/men-pl-mobile.png?width=968&height=545&mode=crop");
   background-repeat: no-repeat;
   background-size: 100%;
   grid-column: 1/-1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.pp {
+  color: white;
+  font-size: 90px;
+  position: relative;
+  left: 70px;
+}
+.pi {
+  background-color: white;
+  width: 80px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 6px;
+  height: 35px;
+  position: relative;
+  left: 1150px;
+  bottom: 60px;
+}
+.input {
+  width: 450px;
+  height: 40px;
+  margin-top: 55px;
+  margin-left: 150px;
+  background-color: rgb(65, 2, 65);
+  opacity: 2px;
+}
+.imgg {
+  position: relative;
+  left: 110px;
+  bottom: 50px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: white;
+}
+.imgg:nth-of-type(3) {
+  background-color: yellow;
+}
+.card h3 {
+  color: white;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+.card p {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 4 px;
 }
 .card {
   background-color: rgb(248, 9, 9);
+}
+
+.card:nth-of-type(5) {
+  background-color: rgb(86, 6, 53);
+}
+.card:nth-of-type(7) {
+  background-color: blue;
+}
+.card:nth-of-type(8) {
+  background-color: blue;
+}
+.card:nth-of-type(10) {
+  background-color: blue;
+}
+.card:nth-of-type(11) {
+  background-color: rgb(242, 218, 218);
+}
+.card:nth-of-type(11) p {
+  color: black;
+}
+.card:nth-of-type(11) h3 {
+  color: black;
+}
+.card:nth-of-type(12) {
+  background-color: rgb(234, 219, 219);
+}
+.card:nth-of-type(12) p {
+  color: black;
+}
+.card:nth-of-type(12) h3 {
+  color: black;
+}
+.header1 {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.parent {
+  margin-left: 50px;
+  /* gap: 300px; */
+  font-size: smaller;
+}
+.parent i {
+  font-size: smaller;
+  color: gray;
+}
+.child {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+}
+.header1 img:hover {
+  scale: 1.4;
+}
+.icon {
+  color: white;
+  font-size: larger;
+  position: relative;
+  right: 40px;
 }
