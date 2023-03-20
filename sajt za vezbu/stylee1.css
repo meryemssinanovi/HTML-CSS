@@ -2,6 +2,54 @@
   margin: 0;
   box-sizing: border-box;
 }
-body {
-  font-family: "Rubik", sans-serif;
+header {
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  font-family: "Josefin Sans", sans-serif;
+}
+header h1 {
+  margin-left: 100px;
+  position: relative;
+  bottom: -25px;
+}
+span {
+  color: red;
+}
+.child {
+  display: flex;
+  column-gap: 30px;
+  justify-content: center;
+  font-size: 17px;
+  color: gray;
+}
+button {
+  margin-left: 1250px;
+  position: relative;
+  bottom: 28px;
+  width: 110px;
+  height: 35px;
+  border: 1px solid red;
+  border-radius: 20px;
+  background-color: rgb(219, 33, 33);
+  color: white;
+}
+.main {
+  background-color: violet;
+  height: 1300px;
+}
+.desni img {
+  width: 550px;
+  height: 550px;
+  position: relative;
+  left: 850px;
+  top: 40px;
+}
+.levi h1 {
+  position: relative;
+  left: 100px;
+  top: 260px;
+}
+footer {
+  background-color: grey;
 }

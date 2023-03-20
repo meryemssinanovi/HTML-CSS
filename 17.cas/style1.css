@@ -44,7 +44,7 @@ a:hover {
   color: rgb(218, 27, 27);
 }
 a:active {
-  color: white;
+  color: orange;
 }
 p {
   font-size: larger;
@@ -69,5 +69,5 @@ button {
   border-radius: 10px;
   /* cursor: pointer; */
   /* cursor: text; */
-  cursor: default;
+  /* cursor: default; */
 }
