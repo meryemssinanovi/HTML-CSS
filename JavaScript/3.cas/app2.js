@@ -100,3 +100,71 @@ console.log(5 * "string");
 console.log(typeof (5 * "string"));
 //NaN je broj cija  vrednost nije korektna.
 //Tio je NaN number
+
+// 4. Operatori poredjenje;
+
+// == Proverava da li su jednake vrednosti dve strane:
+
+console.log(5 == 5);
+console.log(5 == "5"); // imaju istu vrednost ali im je razlicit tip
+console.log("leva" == "desna");
+
+// === Proverava da li su jednaki i tip i vrednost dve strane.
+
+console.log(5 === "5");
+console.log(10 === 10);
+
+// != Proverava razlicitost leve i desne strane.
+
+console.log(5 != "5");
+console.log(5 != 4);
+
+// !== Proverava tip ili vrednosti leve i desne strane
+
+console.log(5 !== "5");
+console.log("sreda" !== "Sreda");
+
+// > vece
+console.log(4 > 6);
+
+// < manje
+console.log(4 < 6);
+
+// >= vece ili jednako
+console.log(5 >= 5);
+
+//<= manje ili jendako
+
+console.log(7 <= 19);
+
+// ? Ternary operator
+
+const isSunny = false;
+
+const doINeedSunGlasses = isSunny ? "Da" : "Ne";
+console.log(doINeedSunGlasses);
+
+// 5. Logicki operatori;
+
+// && Logicko i =>Kada moraju biti zadovoljenj svi poduslovi.
+console.log(5 === "5" && 4 <= 6); // false
+console.log(5 == "5" && 4 <= 6); // true
+
+// || logicko ili => kada je dovoljno da bar jedan uslov bude za dovoljen
+console.log(5 === "5" || "sreda" === "Sreda"); // false
+console.log(5 == "5" || "sreda" === "Sreda"); // true
+
+// ! Logicko not => Vraca boolean.Koji ce da bude suprotne vrednosti od promenljive
+console.log(!isSunny);
+
+// 6.Tipovni operatori:
+
+// typeof => Operator za ispitavanje tipa promenljive
+console.log(typeof 123);
+
+// instanceof => Operator za ispitavanje da li neka promenljiva pripada odredjenom tipu.
+
+console.log(123 instanceof Object);
+
+console.log(typeof [1, 2, 3]); // varca object
+console.log([1, 2, 3] instanceof Array);
