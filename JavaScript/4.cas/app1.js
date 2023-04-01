@@ -10,13 +10,13 @@ if ("prvi uslov") {
 
 // Ako je broj godina => 18,
 // neka se ispise poruka "punoletni ste",inace neka se ispise poruka maloletni ste.
-const brojGodina = 26;
+// const brojGodina = 26;
 
-if (brojGodina >= 18) {
-  console.log("punoletni ste");
-} else {
-  console.log("maloletni ste");
-}
+// if (brojGodina >= 18) {
+//   console.log("punoletni ste");
+// } else {
+//   console.log("maloletni ste");
+// }
 
 // 2. zadatak
 //Na osnovu dve promenljive x i y napisati program koji izracunava i stampa
@@ -39,3 +39,15 @@ console.log(x / y);
 //ako je broj izmedju 12 (ukljucuje) i 18 (ne ukljucuje):Vi ste maloletni
 //ako je broj godina izmedju 18 (ukljucuje) i 40 (ne ukljucuje):Vi ste punoletni
 // ako je broj godina veci ili jednak 40:Vi ste zrela osoba.
+
+const brojGodina = 26;
+
+if (brojGodina < 12) {
+  console.log("Vi ste zrela osoba");
+} else if (brojGodina >= 12 && brojGodina < 18) {
+  console.log("Vi ste maloletni");
+} else if (brojGodina >= 18 && brojGodina < 40) {
+  console.log("Vi ste punoletni");
+} else {
+  console.log("Vi ste zrela osoba");
+}
