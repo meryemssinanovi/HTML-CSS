@@ -48,7 +48,22 @@ button {
 .levi h1 {
   position: relative;
   left: 100px;
-  top: 260px;
+  top: 230px;
+  font-family: "Amatic SC", cursive;
+  font-size: 60px;
+}
+.levi p {
+  position: relative;
+  left: 100px;
+  top: 240px;
+  font-size: larger;
+  line-height: 25px;
+  color: rgb(102, 92, 92);
+}
+.levi button {
+  position: relative;
+  left: -1000px;
+  top: 220px;
 }
 footer {
   background-color: grey;
