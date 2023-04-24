@@ -16,22 +16,22 @@ const brojGodina2 = Number(brojGodina);
 console.log(brojGodina2);
 console.log(typeof brojGodina);
 
-// 2. +string => number
+// 2. +st.log(brojGodina3);
+consring => number
 const brojGodina3 = +brojGodina;
-console.log(brojGodina3);
-console.log(typeof brojGodina3);
+consoleole.log(typeof brojGodina3);
 
 // Unesite vasu visinu:
-
-// const vsiina = Number (prompt("Unesite vasu visinu:"))
-const visina = +prompt("Unesite vasu visinu");
-console.log(visina);
+i 
+// const vs==ina +prompt("Unesite vasu visinu");
+console.og(vi Number (prompt("Unesite vasu visinu:"))
+const vilsina sina);
 console.log(typeof visina);
 
 // Na osnovu unetih godina ispisati u konzoli sledece:
 //
 
-//isNaN ispituje da li je vrednost nekog broja NaN.
+//isNaN ispituje da li je vrednost nekog broja NaN. 
 console.log(isNaN("56"));
 console.log(isNaN("567yehdsba"));
 
