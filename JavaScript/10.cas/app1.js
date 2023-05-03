@@ -50,3 +50,26 @@ for (let i = 0; i < recenica3.length; i++) {
   }
 }
 console.log(recenica4);
+
+// Domaci zadatak.
+// 1. Ispisati novu recenicu gde ce svaka rec zavrsavati velikim slovom.
+
+const recenica5 =
+  "treba nam nova recenica gde ce se svaka rec zavrsavati velikim slovom";
+let recenica6 = "";
+for (let i = 0; i < recenica5.length; i++) {
+  if (i === recenica5.length - 1) {
+    recenica6 += recenica5[i].toUpperCase();
+  } else if (recenica5[i + 1] === " ") {
+    recenica6 += recenica5[i].toUpperCase();
+  } else {
+    recenica6 += recenica5[i];
+  }
+}
+console.log(recenica6);
+
+// 2.	Prebrojati koliko se puta u unetom stringu pojavljuje slovo "M" (i veliko i malo).
+// Npr. za string 'Mama ima momu', dobija se rezultat 5.
+
+const rec = "Mama ima momu";
+let slovoM = 0;

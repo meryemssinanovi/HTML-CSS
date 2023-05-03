@@ -3,7 +3,7 @@
 if ("prvi uslov") {
   // blok koda za izvrsavanje u slucaju da je zadovoljen prvi uslov
 } else if ("drugi uslov") {
-  // blok koda za izvrsavanje u slucaju da je zadovoljen prvi uslov
+  // blok koda za izvrsavanje u slucaju da je zadovoljen drugi uslov
 } else {
   //blok koda koji ce se izvrsiti u slucaju da sve prethodno nije zadovoljeno
 }
