@@ -92,3 +92,38 @@ function zbirDvaBroja3(br1, br2 = 0) {
 }
 console.log(zbirDvaBroja3(15));
 console.log(zbirDvaBroja3(15, 12));
+
+// 1. Napraviti funkciju koja vraca zbir kvadrata dva broja. Ako se izostavi drugi argument, funkcija ga racuna kao 0.
+
+const broj1 = prompt("Unesite prvi broj:");
+const broj2 = prompt("Unesite drugi broj:");
+function zbir1(a, b) {
+  if (a == null) {
+    a = 0;
+  }
+  if (b == null) {
+    b = 0;
+  }
+  return a ** 2 + b ** 2;
+}
+console.log(zbir1(broj1, broj2));
+
+//3. Napraviti funkciju povrsina koja uzima dve vrednosti.
+// Ako su te dve vrednosti jednake da vraca povrsinu kvadrata uz odredjenu poruku,
+// dok ako su razlicite vrednosti da vraca povrsinu pravougaonika uz odredjenu poruku.
+
+function povrsina(a, b) {
+  if (a === b) {
+    return "povrsina kvadrata je " + a ** 2;
+  }
+  if (a != b) {
+    return "povrsina pravougaonika je " + a * b;
+  }
+}
+console.log(povrsina(broj1, broj2));
+s;
+// 2. Napraviti funkciju koja vraca aritmeticku sredinu 3 broja. Sa defaultnim vrednostima.
+
+function aSredina(prvibr = 0, drugibr = 0, trecibr = 0) {
+  return (prvibr + drugibr + trecibr) / 3;
+}
