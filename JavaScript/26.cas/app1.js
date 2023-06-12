@@ -1,0 +1,42 @@
+// Math.min (x,y,z,...)- vraca nam najmanji broj od ponudjenih.
+console.log(Math.min(2, 4, 5, 56, 7, -1));
+
+// Math.max (x,y,z,...)- vraca nam najveci  broj od ponudjenih.
+console.log(Math.max(2, 4, 5, 56, 7, -1));
+
+// Nacin da dobijemo najmanji (najveci) element NIZA je da na vec postojecu metodu Math.min() (Math.max())
+// dodamo jos .apply (null,[1,2,3,4])
+console.log(Math.min.apply(null, [2, 4, 5, 56, 7, -1]));
+
+const nizBrojeva = [2, 4, 5, 56, 7, -1];
+function getMax(arr) {
+  let max = arr[0];
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] > max) {
+      max = arr[i];
+    }
+  }
+}
+console.log(getMax(nizBrojeva));
+
+// Math.random() metoda vraca random broj izmedju 0 (ukljucujuci) i 1 (neukljucujuci).
+
+// Broj izmedju 0 i 1 (realan broj)
+console.log(Math.random());
+// 0 ili 1
+console.log(Math.round(Math.random()));
+// Broj izmedju 0 i 20
+console.log(Math.round(Math.random() * 20));
+
+// Broj izmedju 50 i 100
+console.log(Math.round(Math.random() * 50) + 50);
+
+// Math.log(x)-vraca logaritam broja x za osnovu e
+// Math.log2(x)-vraca logaritam broja x za osnovu 2
+// Math.log10(x)-vraca logaritam broja x za osnovu 10
+
+// Napravit funkciju koja izracunava obim kruga,na osnovu poluprecnika (parametra). O= 2 * r * PI
+
+const obim = (r) => +(2 * r * Math.PI).toFixed(2);
+
+console.log(obim(2));
