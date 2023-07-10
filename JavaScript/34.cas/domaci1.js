@@ -37,6 +37,7 @@ console.log(noviNiz1);
 //    Ostale vrednosti da ne uzima u obzir
 //    I na kraju treba novi niz vratiti sa godinama <10.
 
+// 1.nacin
 const originalniNiz2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const noviNiz2 = [];
 
@@ -52,6 +53,21 @@ function napraviNoviNiz2(niz) {
 }
 
 console.log(napraviNoviNiz2(originalniNiz2));
+
+// 2.nacin
+
+const third = (arr) => {
+  const arr2 = arr.filter((value) => typeof value === "number" && value > 2);
+  const arr3 = arr2.map((value) => {
+    if (value < 8) {
+      return value * 2;
+    } else {
+      return value * 7;
+    }
+  });
+  return arr3.filter((value) => value < 10);
+};
+console.log(third([1, 2, 3, 5, 7, 9, 11]));
 
 // 4. Write a function that converts an array of values from miles to kilometres using the map method.
 // In the end, add the kilometres up in a new variable called "totalDistanceInKilometers" and
@@ -84,7 +100,7 @@ const rezultat = izracunajSumu(niz1, niz2);
 
 function izracunajSumu(niz1, niz2) {
   const duziNiz = niz1.length > niz2.length ? niz1 : niz2;
-  const kraciNiz = niz1.length > niz2.length ? niz2 : niz1;
+  const kraciNiz = niz1.length >= niz2.length ? niz2 : niz1;
   const rezultat = duziNiz.map(
     (vrednost, indeks) => vrednost + (kraciNiz[indeks] || 0)
   );
