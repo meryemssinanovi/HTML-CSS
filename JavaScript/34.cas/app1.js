@@ -17,10 +17,31 @@ console.log(sum(numbers));
 // 3. write a JavaScript program to find the most requent item of an array.
 // simple array
 
+// for (let i = 0; i < arr1.length; i++) {
+//   for (let j = i; j < arr1.length; j++) {
+//     console.log(arr1[i], arr1[j]);
+//   }
+// }
+
 const arr1 = [3, 4, 5, 6, 7, 7, 7, 7, 8, 9, 9, 1, 1, 1, 2, 3];
 
-for (let i = 0; i < arr11.length; i++) {
-  for (let j = i; j < arr1.length; j++) {
-    console.log(arr11[i], arr1[j]);
+function najcesciElement(arr) {
+  let element;
+  let brojac = 0;
+  let brojPojavljivanja = 1;
+  for (let i = 0; i < arr1.length; i++) {
+    for (let j = i; j < arr1.length; j++) {
+      if (arr[i] === arr[j]) {
+        brojac++;
+      }
+      if (brojac > brojPojavljivanja) {
+        brojPojavljivanja = brojac;
+        element = arr[i];
+      }
+    }
+    brojac = 0;
   }
+  return element;
 }
+console.log(najcesciElement(arr1));
+console.log(najcesciElement[(2, 2, 2, 2, 3, 4, 5, 2, 2)]);
