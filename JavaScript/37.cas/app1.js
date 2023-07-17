@@ -73,3 +73,18 @@ const proizvod = () => {
   clouser();
 };
 proizvod();
+
+// Napraviti funkciju koja vraca niz prestupnih godina u segmentu [pocetnaGodina,krajnjaGodina]
+// Godina je prestupna ako je deljiva sa 4 i nije deljiva sa 100 ili ako je deljiva sa 400.
+
+const  prestupnaGodina = (form,to)=>{
+  const prestupnaGodina =[]
+  for(let i = form; i<=to i++){
+    if ((i% 4 ===0 && i % 100 !==0)|| (i % 400 ===0)){
+      prestupnaGodina.push(i)
+
+    }
+  }
+  return prestupnaGodina
+}
+console.log(prestupnaGodina(2000,2020))
